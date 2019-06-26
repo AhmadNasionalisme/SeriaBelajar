@@ -7,7 +7,7 @@ $siswa = query("SELECT * FROM siswa WHERE id=$jaring")[0]; //kita pakai fungsi q
 
 //kita panggil di tabel
 if (isset($_POST['sumbit'])) {
-    if (ubahData($_POST) > 0) { //jka lebih besar dari 0 ada data yan dikirim
+    if (ubahData($_POST) > 0) { //jka lebih besar dari 0 ada data yang dikirim
         echo "
         <script>
         alert('data berhasil di ubah!!');
