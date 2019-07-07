@@ -1,6 +1,6 @@
 <?php
 require "fungsi.php";
-//mengambil data query /data tabel mahasiswa
+//mengambil data query /data tabel siswa
 $latihan = query("SELECT * FROM siswa");
 //ubah ke variabel latihan
 $latihan = query("SELECT * FROM siswa");
